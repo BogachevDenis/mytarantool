@@ -10,9 +10,12 @@ $ cartridge build
 <br>
 $ cartridge start
 <br>
-# Работа с приложением:
+# Настройка приложения:
 Приложение запустится на http://localhost:8081/
 <br>
 <li> Добавьте экземляру tarantool "router" роль Api
 <br>
 <li> Добавьте экземляру tarantool "s1-master" роль Storage
+<br>
+# Работа с приложением:
+Приложение запустится на http://localhost:8081/
