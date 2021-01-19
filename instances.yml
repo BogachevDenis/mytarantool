@@ -1,0 +1,24 @@
+---
+mytarantool.router:
+  advertise_uri: localhost:3301
+  http_port: 8081
+
+mytarantool.s1-master:
+  advertise_uri: localhost:3302
+  http_port: 8082
+
+mytarantool.s1-replica:
+  advertise_uri: localhost:3303
+  http_port: 8083
+
+mytarantool.s2-master:
+  advertise_uri: localhost:3304
+  http_port: 8084
+
+mytarantool.s2-replica:
+  advertise_uri: localhost:3305
+  http_port: 8085
+
+mytarantool-stateboard:
+  listen: localhost:3310
+  password: passwd
