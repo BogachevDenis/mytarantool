@@ -19,5 +19,10 @@ $ cartridge start
 <li> Добавьте экземляру tarantool "s1-master" роль Storage
   
 ## Работа с приложением:
-<br>
-Запросы для работы с хранилищем
+
+### Запросы для работы с хранилище
+<li>POST Запрос на добавление новых данных
+  <br>
+  $ curl -X POST -v -H "Content-Type: application/json" -d '{"key":"first", "value":[{"red":"green"}]}' http://localhost:8081/kv
+  
+
