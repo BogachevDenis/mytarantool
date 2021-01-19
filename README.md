@@ -31,10 +31,10 @@ $ cartridge start
   <br>
  <li>GET Запрос на получение данных
   <br>
-  $  curl -X GET -v http://localhost:8081/kv/first
+  $  curl -X GET  http://localhost:8081/kv/first
   <br>
  <li>DELETE Запрос на удаление данных
   <br>
-  $  curl -X DELETE -v http://localhost:8081/kv/first
+  $  curl -X DELETE  http://localhost:8081/kv/first
   <br>
 
