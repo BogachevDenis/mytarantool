@@ -1,6 +1,6 @@
 # mytarantool
 <br>
-h1 Запуск проекта:
+### Запуск проекта:
 Для запуска проекта выполните следующие команды:
 <br>
 $ git clone https://github.com/BogachevDenis/mytarantool.git
