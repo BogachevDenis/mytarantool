@@ -20,7 +20,7 @@ $ cartridge start
   
 ## Работа с приложением:
 
-### Пример запросов для работы с хранилище
+### Пример запросов для работы с хранилищем
 <li>POST Запрос на добавление новых данных
   <br>
   $ curl -X POST -v -H "Content-Type: application/json" -d '{"key":"first", "value":[{"color":"green"}]}' http://localhost:8081/kv
