@@ -25,15 +25,15 @@ $ cartridge start
   <br>
   $ curl -X POST -v -H "Content-Type: application/json" -d '{"key":"first", "value":[{"color":"green"}]}' http://localhost:8081/kv
   <br>
- <li>PUT Запрос на изменение данных
+ <li>PUT Запрос на изменение данных, где /first - это ключ изменяемого кортежа
   <br>
   $  curl -X PUT -v -H "Content-Type: application/json" -d '{"value":[{"color":"red"}]}' http://localhost:8081/kv/first
   <br>
- <li>GET Запрос на получение данных
+ <li>GET Запрос на получение данных, где /first - это ключ получаемого кортежа
   <br>
   $  curl -X GET  http://localhost:8081/kv/first
   <br>
- <li>DELETE Запрос на удаление данных
+ <li>DELETE Запрос на удаление данных, где /first - это ключ удаляемого кортежа
   <br>
   $  curl -X DELETE  http://localhost:8081/kv/first
   <br>
