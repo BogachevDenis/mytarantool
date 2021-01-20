@@ -37,5 +37,6 @@ $ cartridge start
   <br>
   $  curl -X DELETE  http://localhost:8081/kv/first
   <br>
+   
 ## Приложение задеплоено по следующему адресу:
 http://35.205.253.145:8081
